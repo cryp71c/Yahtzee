@@ -3,40 +3,41 @@
 #define RULES_H
 #include "includes.h"
 
+using namespace std;
 class rules {
 	private:
-		std::map<std::string, int> count_aces(std::vector<int> roll) {
-			std::map<std::string, int> aces_map;
-			aces_map["Aces"] = std::accumulate(roll.begin(), roll.end(), 0);
+		map<string, int> count_aces(vector<int> roll) {
+			map<string, int> aces_map;
+			aces_map["Aces"] = accumulate(roll.begin(), roll.end(), 0);
 			return(aces_map);
 		}
 		/*
-		std::map<std::string, int> count_twos(std::vector<int>) {
+		map<string, int> count_twos(vector<int>) {
 			
 		
 		
 		}
-		std::map<std::string, int> count_threes(std::vector<int>) {
+		map<string, int> count_threes(vector<int>) {
 
 
 
 		}
-		std::map<std::string, int> count_fours(std::vector<int>) {
+		map<string, int> count_fours(vector<int>) {
 
 
 
 		}
-		std::map<std::string, int> count_fives(std::vector<int>) {
+		map<string, int> count_fives(vector<int>) {
 
 
 
 		}
-		std::map<std::string, int> count_sixs(std::vector<int>) {
+		map<string, int> count_sixs(vector<int>) {
 
 
 
 		}
-		int total_upper(std::vector<int>) {
+		int total_upper(vector<int>) {
 
 
 
@@ -44,9 +45,9 @@ class rules {
 		*/
 
 	public:
-		std::map<std::string, int> rules_main(std::vector<int> roll)
+		map<string, int> rules_main(vector<int> roll)
 		{
-			std::map<std::string, int> aces_map;
+			map<string, int> aces_map;
 			aces_map = count_aces(roll);
 			return(aces_map);
 		}

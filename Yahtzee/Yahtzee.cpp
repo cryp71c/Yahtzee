@@ -4,20 +4,53 @@
 #include <iostream>
 #include "includes.h"
 
+using namespace std;
 int main()
 {
     rules rule_set;
-    std::vector<int> test_vector;
-    std::map<std::string, int> count_aces;
-    //[1, 4, 3, 5, 2]
-    test_vector.push_back(1);
-    test_vector.push_back(4);
-    test_vector.push_back(3);
-    test_vector.push_back(5);
-    test_vector.push_back(2);
+    dice dice_set;
+    map<string, int> count_aces;
+    vector<int> roll;
+    char player_count = ';';
+    char y_n;
+    bool game = TRUE;
+    bool main_menu = TRUE;
 
-    count_aces = rule_set.rules_main(test_vector);
-    std::cout << "Aces Total: " << count_aces["Aces"] << std::endl;
+
+    while (game) {
+        while (main_menu) {
+            while (player_count != '1' && player_count != '2' && player_count != '3' && player_count != '4') {
+                cin.clear();
+                player_count = ';';
+                cin >> player_count;
+                if (player_count == '1' || player_count == '2' || player_count == '3' || player_count == '4') {
+                    break;
+                }
+                cout << "Not a valid input" << endl;
+            }
+            main_menu = FALSE;
+        }
+        roll = dice_set.roll_dSix();
+        for (int i = 0; i < roll.size(); i++) {
+            cout << roll[i] << endl;
+        }
+        cout << "Out of menu." << endl;
+        game = FALSE;
+    }
+
+    //
     
+    /*switch (player_count)
+    {
 
+    default:
+        break;
+    }
+    */
+
+
+    //count_aces = rule_set.rules_main();
+    //cout << "Aces Total: " << count_aces["Aces"] << endl;
+    
+    return(0);
 }

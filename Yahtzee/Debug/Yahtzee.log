@@ -1,0 +1,5 @@
+﻿  Yahtzee.cpp
+C:\Users\Atticus\source\repos\Yahtzee\Dice.h(12,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Atticus\source\repos\Yahtzee\Yahtzee.cpp(18,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Atticus\source\repos\Yahtzee\Yahtzee.cpp(10,11): warning C4101: 'rule_set': unreferenced local variable
+  Yahtzee.vcxproj -> C:\Users\Atticus\source\repos\Yahtzee\Debug\Yahtzee.exe
