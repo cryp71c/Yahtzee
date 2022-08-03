@@ -3,7 +3,7 @@
 #define PLAYER_H
 #include "includes.h"
 using namespace std;
-class player { // Player Class and rules
+class player_base { // Player Class and rules
 private:
 	int allowed_rolls_per_turn = 3;
 	int allowed_turns = 13;
@@ -11,7 +11,8 @@ private:
 	map<string, int> lower_card; // Lower Half of the score card
 	
 public:
-
+	int player_number;
+	string player_name;
 
 
 

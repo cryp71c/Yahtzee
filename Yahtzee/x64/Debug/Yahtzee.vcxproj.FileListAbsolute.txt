@@ -1,1 +1,2 @@
 C:\Users\Atticus\source\repos\Yahtzee\x64\Debug\Yahtzee.exe
+C:\Users\Atticus\Desktop\Yahtzee\Yahtzee\x64\Debug\Yahtzee.exe

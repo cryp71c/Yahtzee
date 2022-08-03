@@ -1,5 +1,9 @@
-﻿  Yahtzee.cpp
-C:\Users\Atticus\source\repos\Yahtzee\Dice.h(12,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Atticus\source\repos\Yahtzee\Yahtzee.cpp(15,10): warning C4101: 'y_n': unreferenced local variable
-C:\Users\Atticus\source\repos\Yahtzee\Yahtzee.cpp(10,11): warning C4101: 'rule_set': unreferenced local variable
-  Yahtzee.vcxproj -> C:\Users\Atticus\source\repos\Yahtzee\x64\Debug\Yahtzee.exe
+﻿  Player.h
+C:\Users\Atticus\Desktop\Yahtzee\Yahtzee\Dice.h(12,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Yahtzee.cpp
+C:\Users\Atticus\Desktop\Yahtzee\Yahtzee\Dice.h(12,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Atticus\Desktop\Yahtzee\Yahtzee\Yahtzee.cpp(18,10): warning C4101: 'y_n': unreferenced local variable
+C:\Users\Atticus\Desktop\Yahtzee\Yahtzee\Yahtzee.cpp(10,11): warning C4101: 'rule_set': unreferenced local variable
+C:\Users\Atticus\Desktop\Yahtzee\Yahtzee\Yahtzee.cpp(11,10): warning C4101: 'dice_set': unreferenced local variable
+  Generating Code...
+  Yahtzee.vcxproj -> C:\Users\Atticus\Desktop\Yahtzee\Yahtzee\x64\Debug\Yahtzee.exe
